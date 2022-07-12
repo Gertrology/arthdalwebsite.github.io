@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Medieval;
+    src: url(fonts/BLKCHCRY.TTF);
+}
+
+body{
+    background-image: url(images/cinematic.jpg);
+}
+body h1 {
+    color:gold;
+    font-family: "Medieval";
+    text-align: center;
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+
+}
+#text {
+    background-image: url(images/depositphotos_1821635-stock-photo-vintage-old-paper-texture.jpg);
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: "Medieval";
+}
+#text p {
+    color:#eab676;
+    font-size: 20px;
+
+}
+#text h2 {
+    color:#d3a46a;
+    font-size: 35px;
+}
+.cat {
+    width: 10px;
+}
+#text h3{
+    color:#eab676;
+    font-size: 40px;
+}
+.flyingCat{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes animation {
+    0% {left: 0px; top: 0px;}
+    33% {left: 95%; top: 0px;}
+    49% {left: 95%; top: 93%;}
+    82% {left: 0px; top: 93%;}
+    100% {left: 0px; top: 0px;}
+}
